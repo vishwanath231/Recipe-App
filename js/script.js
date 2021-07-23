@@ -56,7 +56,7 @@ function getData(results){
                 <div class="info__box">
                     <div class="info">
                         <div class="name">${result.recipe.label}</div>
-                        <div class="calories">Calories: ${caloriesValue}</div>
+                        <div class="calories">Calories : ${caloriesValue}</div>
                     </div>
                     <div class="view__link">
                         <a href="${result.recipe.url}" target="_blank">View Recipe</a>
