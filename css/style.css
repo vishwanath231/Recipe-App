@@ -169,7 +169,7 @@ button{
 }
 @media(max-width:425px){
     #form{
-         width: 350px;
+         width: 340px;
     }
     .box {
         width: 100%;
@@ -191,4 +191,50 @@ button{
     #form{
          width: 290px;
     }
+}
+
+
+
+
+/* FOLLOW ME */
+
+.follow{
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.follow div {
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: .3rem;
+}
+.follow ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.follow ul li{
+    margin: 4px;
+    list-style: none;
+     width: 40px;
+     height: 40px;
+     border-radius: 50%;
+     background-color: #E8F0FE;
+      box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px,
+      rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+.follow ul li a{
+   text-align: center;
+    color: #000;
+    padding: 6px;
+    text-decoration: none;
+    line-height: 38px;
+}
+
+.follow ul li a > i{
+    color: coral;
+}
+.follow ul li:hover.follow ul li a > i {
+    background-color: coral;
+    color: #000;
 }
