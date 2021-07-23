@@ -136,13 +136,18 @@ button{
     margin-left: 5px;
 }
 .view__link a{
+    font-size: 14px;
+    font-weight: 500;
     background-color: #fff;
     border-radius: 3px;
     text-decoration: none;
-   box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px,
+    rgba(0, 0, 0, 0.24) 0px 1px 2px;
     padding: 10px;
     transition: all 0.6s ease;
     color: coral;
+    text-transform: capitalize;
+    font-family: "Spartan",sans-serif;
 }
 .view__link a:hover{
     background-color: coral;
