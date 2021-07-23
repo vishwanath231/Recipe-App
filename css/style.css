@@ -169,10 +169,10 @@ button{
 }
 @media(max-width:425px){
     #form{
-         width: 300px;
+         width: 350px;
     }
     .box {
-        width: 90%;
+        width: 100%;
     }
     .info__box {
         flex-direction: column;

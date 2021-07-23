@@ -51,17 +51,15 @@ function getData(results){
 
 
         output += `
-            <div class="card__container">
-                <div class="box">
-                    <img src="${result.recipe.image}" alt="Recipe Image" class="recipe__img">
-                    <div class="info__box">
-                        <div class="info">
-                            <div class="name">${result.recipe.label}</div>
-                            <div class="calories">Calories: ${caloriesValue}</div>
-                        </div>
-                        <div class="view__link">
-                            <a href="${result.recipe.url}" target="_blank">View Recipe</a>
-                        </div>
+            <div class="box">
+                <img src="${result.recipe.image}" alt="Recipe Image" class="recipe__img">
+                <div class="info__box">
+                    <div class="info">
+                        <div class="name">${result.recipe.label}</div>
+                        <div class="calories">Calories: ${caloriesValue}</div>
+                    </div>
+                    <div class="view__link">
+                        <a href="${result.recipe.url}" target="_blank">View Recipe</a>
                     </div>
                 </div>
             </div>
