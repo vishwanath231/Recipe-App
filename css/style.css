@@ -219,7 +219,7 @@ button{
      width: 40px;
      height: 40px;
      border-radius: 50%;
-     background-color: #E8F0FE;
+     background-color: #fff;
       box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px,
       rgba(0, 0, 0, 0.24) 0px 1px 2px;
 }
@@ -228,7 +228,7 @@ button{
     color: #000;
     padding: 6px;
     text-decoration: none;
-    line-height: 38px;
+    line-height: 40px;
 }
 
 .follow ul li a > i{
